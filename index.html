@@ -42,7 +42,7 @@
 
 <body class="p-4 lg:p-0">
     <section class="mb-6 lg:mb-12">
-        <div class="container my-5 lg:my-8 mx-auto relative">
+        <div class="container flex flex-row lg:my-5 my-8 mx-auto relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-black p-[32px] hidden lg:w-[550px] rounded-xl space-y-4 absolute top-[500px] left-[58%]">
+            <div class="bg-black lg:p-[32px]  lg:w-[550px] rounded-xl space-y-4 absolute lg:top-[500px] lg:left-[58%]">
                 <h1 class="text-white text-3xl font-bold">Meet all the heroes from the field</h1>
                 <p class="text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
                     dolor. Purus urna in sit nullam proin. </p>
@@ -165,16 +165,45 @@
 
 
 
-            <div class="flex justify-between">
+            <div class="flex justify-between gap-5 flex-col lg:flex-row">
                 <!------card 1---------->
                 <div
-                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/2.png)] bg-no-repeat bg-cover lg:p-[40px] lg:h-[500px]">
-                    <h1 class="text-3xl font-bold text-white flex justify-center">Junior Program</h1>
-                    <p>The game has much importance in India as it has chosen it as its national game. Also, India has a
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/2.png)] bg-no-repeat bg-cover p-4 lg:p-[40px] lg:h-[500px] rounded-xl my-auto">
+                    <div class="lg:pt-52 space-y-6">
+                        <h1 class="text-[28px] font-bold text-white">Junior Program</h1>
+                        <p class="flex items-center text-white">The game has much importance in India as it has
+                        chosen it as its national game. Also, India has a
                         bright and big deep-rooted history related to sports. </p>
-                        <div class="flex justify-center">
-                            <button class="btn btn-primary">Register Now!</button>
+                        <div class="">
+                            <button class="btn btn-error text-white text-[20px] font-bold">Register Now!</button>
                         </div>
+                    </div>
+                </div>
+                <!------card 1---------->
+                <div
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/3.png)] bg-no-repeat bg-cover p-4 lg:p-[40px] lg:h-[500px] rounded-xl my-auto">
+                    <div class="lg:pt-52 space-y-6">
+                        <h1 class="text-[28px] font-bold text-white">Junior Program</h1>
+                        <p class="flex items-center text-white">The game has much importance in India as it has
+                        chosen it as its national game. Also, India has a
+                        bright and big deep-rooted history related to sports. </p>
+                        <div class="">
+                            <button class="btn btn-error text-white text-[20px] font-bold">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------3rd--------------->
+            <div>
+                <div
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/4.png)] bg-no-repeat bg-cover p-4 lg:p-[40px] lg:h-[500px] rounded-xl my-auto">
+                    <div class="lg:pt-52 space-y-6">
+                        <h1 class="text-[28px] font-bold text-white">Professional Program</h1>
+                        <p class="flex items-center text-white lg:w-[80%]">In conclusion, Hockey is the national game of India but it was never declared officially. But, we can make this official by bringing the golden period of hockey back once again. Currently, our hockey team lacks support from the government but with our support they can bring the glory days of hockey back.</p>
+                        <div class="">
+                            <button class="btn btn-error text-white text-[20px] font-bold">Register Now!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
